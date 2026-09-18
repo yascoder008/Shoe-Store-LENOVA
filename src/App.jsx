@@ -13,7 +13,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 function App(){
   return(
     <CartProvider>
-     <Router>
+     <Router basename="Shoe-Store-LENOVA">
       <Nav/>
       <Routes>
         <Route path="/" element={<Home/>}/>
